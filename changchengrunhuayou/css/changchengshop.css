@@ -1,0 +1,83 @@
+.header{width:100%;;}
+.header-inner1{width:100%;height:36px;border-bottom:1px solid #F6F6F6;}
+.header-inner1 ul{width:1200px;margin: 0 auto;padding-top:10px;}
+.header-inner1 ul li{float: left;font-size:12px;border-right: 1px solid black;padding-left:15px;padding-right:15px;}
+.header-inner1 ul li .span{color:#0066CC;}
+.header-inner1 ul li a{color: #0066CC}
+.header-inner1 ul li:nth-child(3) a,.header-inner1 ul li:nth-child(4) a{color:black;}
+.header-inner1 ul li:nth-child(5){border: none;}
+.header-inner2{width:1200px;height:96px;margin: 0 auto;padding-top:15px;}
+.header-inner2 div{width:298px;height:60px;float:right;margin-top: 15px;}
+.header-inner2 div p:nth-child(1){width:298px;height:32px;background:url(../img/changchengrunhuayou/searchDiv_form.png)no-repeat;}
+.header-inner2 div p:nth-child(1) .serach-box{margin-left:40px;margin-top:3px;width:195px;height:26px;border: none;}
+.header-inner2 div p:nth-child(1) .serach{width:55px;height:27px;border:none;color:white;background:#005BAC;font-weight:800;cursor: pointer;}
+.header-inner2 div p:nth-child(2){font-size:12px;margin-top: 10px;color:#666666;}
+.header-inner2 div p:nth-child(2) a{margin:5px;color:#666666;}
+.header-inner3{width:100%;height:40px;background:#005BAC;}
+.header-inner3-inner{width:1200px;height:40px;margin: auto;position: relative;line-height:40px;font-weight:800;text-align: center;}
+.header-inner3-inner p{width:236px;height:40px;background: url(../img/changchengrunhuayou/frequeL1.png)no-repeat 40px 8px;float: left;}
+.header-inner3-inner p a{color: white;}
+.header-inner3 .inner3-inner-nav{width:964px;height:40px;float:right;}
+.header-inner3 .inner3-inner-nav li{float: left;}
+.header-inner3 .inner3-inner-nav li a{color: white;}
+.header-inner3 .inner3-inner-nav li:nth-child(1){width:125px;height:40px;background:url(../img/changchengrunhuayou/indMenuBg.png)no-repeat 18px 10px}
+.header-inner3 .inner3-inner-nav li:nth-child(2){width:125px;}
+.header-inner3 .inner3-inner-nav li:nth-child(3),.header-inner3 ul li:nth-child(4),.header-inner3 ul li:nth-child(5),.header-inner3 ul li:nth-child(6),
+.header-inner3 .inner3-inner-nav li:nth-child(7){width: 128px;}
+.header-inner3-inner #chengfenleinone{width:236px;background:#005BAC;position: absolute;top:40px;left: 0px;display: none;height: 500px;}
+.header-inner3-inner #chengfenleinone li a{display: block;width:216px;height:55px;margin: auto;text-align: center;line-height:55px;border-top:1px solid #4084C1;color: white;}
+.header-inner3-inner #chengfenleinone li:nth-child(1) a{background:url(../img/changchengrunhuayou/frequeL3.png)no-repeat 30px 18px;}
+.header-inner3-inner #chengfenleinone li:nth-child(2) a{background:url(../img/changchengrunhuayou/frequeL2.png)no-repeat 30px 18px;}
+.header-inner3-inner #chengfenleinone li:nth-child(3) a{background:url(../img/changchengrunhuayou/frequeL4.png)no-repeat 30px 13px;}
+.header-inner3-inner #chengfenleinone #fengongsi{width:256px; margin:320px 0px 40px 0px;border: none;background:#0773d3;position: absolute;top:48px;left: -10px;background:#0773d3 url(../img/changchengrunhuayou/doubleR.png)no-repeat 30px 10px;background-size:30px;}
+.content{width:100%;}
+.content-inner{width:1200px;margin: 0 auto;font-weight: 800;}
+.content-inner ul{width:100%;height:50px;}
+.content-inner ul li{float: left;line-height: 50px;}
+.content-inner ul li:nth-child(1){margin-right:15px;margin-left: 20px;}
+.content-inner ul li:nth-child(2) a:hover{color: blue;}
+.content-inner ul li:nth-child(3){margin-left: 10px;margin-right:10px;}
+.chanpinlie{width:114px;height: 34px;background:#005BAA;color: white;line-height:34px;text-align: center;margin:20px 0;}
+.quan{width:100%;height:30px;margin-bottom:10px;}
+.quan input,label{float: left;margin-top:3px;}
+.quan input{margin-top:7px;margin-left:12px;}
+.quan label{vertical-align: middle;margin-left: 10px;}
+.quan span{display: block;width:111px;height:28px;background: url(../img/changchengrunhuayou/emptySpan.jpg);float: right;margin-right:10px;}
+.table{width:1198px;border: 1px solid #BBB4B4;border-bottom:none;}
+.table .tr1{width:100%; height:33px;background:#999;color: white;font-weight:800;}
+.table .tr1 .tr1-td1{width:300px;}
+.tr2-td1 input,.tr3-td1 input,.tr4-td1 input{float: left;margin:55px 0 0 10px;}
+.tr2-td1 p,.tr3-td1 p,.tr4-td1 p{float: left;width:160px;text-align: left;margin-top:25px;font-size:14px;line-height:22px;}
+.table table tr td img{width:90px;height: 90px;margin:15px 10px;float: left;}
+.tr2 .tr2-td2{width:140px;}
+.tr2 .tr2-td3{width:178px;}
+.tr2 .tr2-td4{width:180px;}
+.tr2 .tr2-td5{width:254px;}
+.tr2 .tr2-td3 input:nth-child(1),.tr2 .tr2-td3 input:nth-child(3){width:28px; height:28px;background:white;border:1px solid #999999;}
+.tr2 .tr2-td3 input:nth-child(2){width:55px; height:25px;text-align: center;}
+.tr2 .tr2-td3 input:nth-child(3){color:rgb(201, 23, 53);}
+.content-inner table{width:1180px; border-collapse: collapse;border: 1px solid #BBB4B4;text-align: center;margin:10px 10px 0 10px;}
+.content-inner table tr td{border: 1px solid #BBB4B4;}
+.table-buttom{width:1178px;height:45px;margin-left:10px;border:1px solid #BBB4B4;border-top:none;border-bottom:none:;line-height:45px;margin-bottom:10px;}
+.table-buttom input,label,p{float: left;}
+.table-buttom input{margin-top:16px;margin-left:10px;}
+.table-buttom label{line-height: 38px;margin-left: 20px;}
+.table-buttom-p1{margin-left:555px;}
+.table-buttom p span{color: red;}
+.table-buttom-p2,.table-buttom-p3{margin-left:30px;}
+.jixushop{width:1198px;height:50px;padding:20px 0;border: 1px solid #999;border-top:none;margin-top:-10px;}
+.jixushop a:nth-child(1),.jixushop a:nth-child(2){width:183px;height:50px;}
+.jixushop a:nth-child(1){background: url(../img/changchengrunhuayou/immedOrder.png)no-repeat 0px 0px;float:left;margin-left:30px;}
+.jixushop a:nth-child(2){background: url(../img/changchengrunhuayou/immedOrder.png)no-repeat 0px -100px;float:right;margin-right:30px;}
+/*.jixushop111{width:100%;height:50px;margin:20px 0;padding:20px 0;border: 1px solid #999;}*/
+.content-inner-cont2{width:850px;margin:30px auto;}
+.footer{width:100%;background:#999;}
+.footer-inner{width:1200px;height:88px;margin: auto;padding-top:35px;color:white;}
+.footer-inner ul{padding: 0px 244px;}
+.footer-inner ul li{width:135px;float: left;border-right: 2px solid white;text-align: center;}
+.footer-inner ul li:nth-child(5){border-right: none;}
+.footer-inner ul li a{color:white;}
+.footer-inner p{clear: both;text-align: center !important;margin:20px 0 0 510px;font-size:12px;}
+.ReturnTop{width:70px;height:65px;background: url(../img/changchengrunhuayou/result-top-btn.png);float: right;position: fixed;bottom:170px;right:50px;display: none;}
+
+
