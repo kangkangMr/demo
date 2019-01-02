@@ -1,0 +1,29 @@
+.header{width:100%;height:80px;}
+.header-inner{width:1200px;height:40px;margin: 0 auto;padding-top:40px;}
+.header-inner img{float: left;margin:0 60px;}
+.header-inner b{float: left;font-size:30px;color:#e60012;margin-top:5px;}
+.body1{width:100%;height: 537px;background:#a40007;}
+.body1-inner{width: 1200px;height:537px;background: url(../img/changchengrunhuayou/loginBg.png);margin:20px auto;}
+.body1-innermax{width:354px;height:390px;background:white;float: right;margin: 50px;padding-top:35px;}
+.body1-innermax a{margin-left:35px;font-size:20px;}
+.body1-inner-user,.body1-inner-pass{width:235px;height:30px;margin: 0 auto;}
+.body1-inner-user{margin-top:36px;background: url(../img/changchengrunhuayou/loginNum.png)no-repeat;background-size:100%;padding-left:49px;padding-top:10px;}
+.body1-inner-user input,.body1-inner-pass input{width:234px;height:37px;margin-top:-12px;border: none;margin-left:-10px;padding-left: 10px;}
+.num,.pas{color: red;margin-left:85px;font-size: 14px;}
+.body1-inner-pass{margin-top:10px;background: url(../img/changchengrunhuayou/loginPass.png)no-repeat;background-size:100%;padding-left:49px;padding-top:10px;}
+.body1-inner-deng{width:284px;height: 20px;margin: auto;margin-top:10px;}
+.body1-inner-deng input{width:15px;height:15px; position: relative;top: 2px;margin-right:5px;}
+.body1-inner-deng p{float: left;}
+.body1-inner-deng a{float: right;font-size: 16px;}
+.body1-inner-jing{width:284px;height:28px;margin:25px auto;background:url(../img/changchengrunhuayou/lossTx.png)no-repeat;background-size:100%;}
+.body1-inner-denglu{width:284px;height:55px;margin-left:35px;background:red;color: white;font-size: 20px;border: none;}
+.body2{width:100%;height:135px;margin-top:20px;}
+.body2-inner{width: 1200px;height:135px;margin:0 auto; }
+.body2-inner div{width:850px;height: 135px;background: url(../img/changchengrunhuayou/foorterImg.jpg);margin: auto;}
+.footer{width:100%;height:123px;margin-top:20px;background:#999;}
+.footer-inner{width:1200px;height:88px;margin: auto;padding-top:35px;color:white;}
+.footer-inner ul{padding: 0px 244px;}
+.footer-inner ul li{width:140px;float: left;border-right: 2px solid white;text-align: center;}
+.footer-inner ul li:nth-child(5){border-right: none;}
+.footer-inner ul li a{color:white;}
+.footer-inner p{text-align: center;margin-top:50px;font-size:12px;}
