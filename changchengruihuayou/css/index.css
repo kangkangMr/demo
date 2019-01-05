@@ -95,7 +95,15 @@
 .right-header{display: block;width:120px;height:36px;text-align: center;line-height:36px;background:#0773D3;}
 .content-inner-right li:nth-child(1) p{width:100%;height:20px; margin-top: 15px;}
 .right-cont1-sp2,.right-cont1-sp3{float: left;}
-.right-cont1-sp1{display: block;width:16px;height:16px;background:#0773D3;color:white;line-height:16px;text-align: center;float: left;margin-left: 10px;}
+
+.right-cont111,.right-cont222,.right-cont333,.right-cont444,.right-cont555,.right-cont666{width:90% !important;height:80px !important;border: 1px solid red;margin: auto;display: none;}
+.right-cont111 span,.right-cont222 span,.right-cont333 span,.right-cont444 span,.right-cont555 span,.right-cont666 span{margin: 0 !important;}
+.right-cont111 img,.right-cont222 img,.right-cont333 img,.right-cont444 img,.right-cont555 img,.right-cont666 img{width:62px;height:62px;float: left;margin:16px 16px 0px -16px;}
+.right-cont111 a,.right-cont222 a,.right-cont333 a,.right-cont444 a,.right-cont555 a,.right-cont666 a{display: block;width:210px;margin: 16px 0 0 15px;}
+.right-cont222 a{display: block;width:210px;margin: 16px 0 0 15px;}
+
+.right-cont1-sp1,.right-cont111 span,.right-cont222 span,.right-cont333 span,.right-cont444 span,.right-cont555 span,.right-cont666 span{display: block;width:16px;height:16px;background:#0773D3;color:white;line-height:16px;text-align: center;float: left;margin-left: 9px;}
+.right-cont1-sp1{margin-left:12px;}
 .right-cont1-sp2{margin-left:10px;}
 .right-cont1-sp3{float: right;margin-right:10px;color:#888888;}
 .right-cont1-sp3 em{color:#E60012;}
@@ -116,12 +124,16 @@
 .footer-inner ul li a{color:white;}
 .footer-inner p{text-align: center;margin-top:50px;font-size:12px;}
 .ReturnTop{width:70px;height:65px;background: url(../img/changchengrunhuayou/result-top-btn.png);float: right;position: fixed;bottom:170px;right:50px;display: none;}
-
-
-
-
-
-
+.annunciate{display: block;width:180px;height:130px;background:url(../img/changchengrunhuayou/jiFen_tz.png);position:absolute;bottom:260px;right:20px;}
+#overlay{position:fixed;top:0;left:0;width:100%;height:330%;background:#000;opacity:0.3;filter:alpha(opacity=50);display:none;}
+.Annunciate{width:685px;height: 325px;background: white;border:solid 5px #ECEFF1;position: fixed;left:0;bottom: 0;right:0;top: 0;margin: auto;color: black;display: none;}
+.Annunciate span{display: block;width:22px;height: 21px;background:url(../img/changchengrunhuayou/closeSpan.jpg);float: right;margin:15px;}
+.Annunciate-p1,.Annunciate-p2,.Annunciate-p3{width:635px;height:32px;margin: auto;}
+.Annunciate-p1{width:635px;height:32px;font-weight: bold;font-size:30px;text-align: center;margin-top:40px;}
+.Annunciate-p2,.Annunciate-p3{font-size: 20px;font-weight:800;color#333333;}
+.Annunciate-p2{margin-top:30px;}
+.Annunciate-p3{text-indent:2em;line-height:35px;}
+.Annunciate-p4{width:255px;margin-right:40px;float: right;margin-top:70px;font-size:20px;font-weight:800;text-align: center;}
 
 
 

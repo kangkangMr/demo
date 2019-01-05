@@ -7,10 +7,11 @@
 		<link rel="stylesheet" type="text/css" href="css/dingdanzhongxin.css"/>
 		<link rel="stylesheet" type="text/css" href="css/paging.css"/>
 		<script src="js/jquery-1.8.3.min.js"></script>
-		<script src="js/jiesuanzhongxin.js"></script>
+		<script src="js/dingdanzhongxin.js"></script>
 		<script src="js/serach-box.js"></script>
 		<script src="js/returntop.js"></script>
 		<script src="js/paging.js"></script>
+		<script src="js/Calendar.js"></script>
 	</head>
 	<body>
 		<div class="header">
@@ -69,9 +70,9 @@
 				<img src="img/changchengrunhuayou/conBanner.png"/>
 				<p class="order">产品列表</p>
 				<div class="content-inner-order">
-					<div class="content-inner-order-header">
+					<!--<div class="content-inner-order-header">
 						<form method="post" class="form1">
-							<input class="form1-in1" type="text"  value="" />
+							<input class="form1-in1" type="text"  value="请输入商品名称或订单号进行搜索" />
 							<input class="form1-in2" type="button" value="订单搜索" />
 						</form>
 						<form method="post" class="form2">
@@ -81,7 +82,23 @@
 							<input class="form2-in1 form2-in2" type="text" value="" />
 							<input class="form1-in2 form2-in3" type="button" value="查  询" />
 						</form>
-					</div>
+					</div>-->
+					
+					<div class="clearfix mt20 ml15 ontent-inner-order-header">
+		                <form class="cc_formOrder fl form1">
+		                    <input class="form1-in1 cc_formOrderinp1 fl background_Transparent bor_none pl5 pr5 font_st" type="text" value="输入商品名称或订单号进行搜索">
+		                    <input class="form1-in2 cc_formOrderinp2 fr curaor_pointer background_Transparent bor_none" type="submit" value="订单搜索">
+		                </form>
+		                <form class="cc_formDeal fl ml35 form2">
+		                    <label class="font_fam fl">成交时间：</label>
+		                    <input name="control_date" class="queInp f14 font_fam fl form2-in1" type="text" id="control_date" size="10" maxlength="10" onClick="new Calendar().show(this);" readonly>
+		                    <label class="font_fam ml10 mr10 fl">到</label>
+		                    <input name="control_date2" class="queInp f14 font_fam fl form2-in1 form2-in2" type="text" id="control_date2" size="10" maxlength="10" onClick="new Calendar().show(this);" readonly>
+		                    <input class="fr butccQuery ml25 curaor_pointer bor_none form1-in2 form2-in3" type="submit" value="查  询">
+		                </form>
+            		</div>
+					
+					
 					<ul class="order-number f18">
 						<li>商品名称</li>
 						<li>积分</li>

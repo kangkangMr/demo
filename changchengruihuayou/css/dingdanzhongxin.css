@@ -41,12 +41,14 @@
 .content-inner-order,.content-inner-order1,.content-inner-order2,.content-inner-order3{width:1198px;border:1px solid #BBB4B4;}
 .content-inner-order-header{width:1176px;height:32px;margin:25px auto;}
 .content-inner-order-header form{float: left;}
-.content-inner-order-header .form1{margin-left: 20px;}
+.content-inner-order-header .form1{margin-left: 20px !important;color:#CCCCCC;}
 .content-inner-order-header .form1 input{float: left;}
 .content-inner-order-header .form2{margin-left: 40px;}
-.form1 .form1-in1{width:250px;height:28px;}
-.form1 .form1-in2,.form2 .form2-in3{width:76px;height:30px;padding-bottom: 23px;padding-top:5px;}
-.form2 .form2-in1{width:167px;height:28px;}
+.form1 .form1-in1{width:250px;height:32px;color:#CCCCCC;border: 1px solid #CCCCCC;margin-left:10px;}
+.form1 .form1-in2,.form2 .form2-in3{width:76px;height:30px;padding-bottom: 25px;padding-top:7px;border: 1px solid #CCCCCC;}
+.form2 .form2-in3{padding-top:5px;height:26px;line-height:24px;}
+.form1 label,.form2 label{line-height:32px !important;}
+.form2 .form2-in1{width:162px;height:28px;}
 .form2 .form2-in3{float: right;margin-left:20px;}
 .order-number{width:width:1178px;height:35px; border: 1px solid #BBB4B4;margin:10px;color: white;background:#999;}
 .order-number li{float:left;border-right:1.5px solid #CCCCCC;height:35px;text-align: center;line-height:35px;}

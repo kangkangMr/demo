@@ -1,7 +1,6 @@
 $(function() {
         $(window).scroll(function(event) {
             var h = $(window).scrollTop();
-            console.log(h);
             if(h>=400){			//淡入
                 $(".ReturnTop").fadeIn(1000);
             }else{				//淡出

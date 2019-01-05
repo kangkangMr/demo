@@ -9,9 +9,11 @@
 		<script src="js/changchengxiangqing.js"></script>
 		<script src="js/serach-box.js"></script>
 		<script type="text/javascript" src="js/returntop.js"></script>
+		<script type="text/javascript" src="js/jquery.1.4.2-min.js"></script>
+		<script type="text/javascript" src="js/magnifying glass.js"></script>
 	</head>
 	<body>
-		<div class="header">
+		<div class="header"> 
 			<div class="header-inner1">
 				<ul>
 					<li><a href="#">Hi,ROOT001</a></li>
@@ -65,38 +67,50 @@
 					<li>苹果iphone6移动公开版4G手机</li>
 				</ul>
 				<div class="content-inner-cont">
-					<div class="content-inner-cont-div1">
-						<div class="magnifying-glass"></div> 
-						<ul id="magnifying">
-							<li><img bimg="http://demo.lanrenzhijia.com/2014/jd0912/images/b1.jpg" src="http://demo.lanrenzhijia.com/2014/jd0912/images/s1.jpg" onmousemove="preview(this);"></li>
-							<li><img bimg="http://demo.lanrenzhijia.com/2014/jd0912/images/b2.jpg" src="http://demo.lanrenzhijia.com/2014/jd0912/images/s2.jpg" onmousemove="preview(this);"></li>
-							<li><img bimg="http://demo.lanrenzhijia.com/2014/jd0912/images/b3.jpg" src="http://demo.lanrenzhijia.com/2014/jd0912/images/s3.jpg" onmousemove="preview(this);"></li>
-							<li><img bimg="http://demo.lanrenzhijia.com/2014/jd0912/images/b1.jpg" src="http://demo.lanrenzhijia.com/2014/jd0912/images/s1.jpg" onmousemove="preview(this);"></li>
-							<li><img bimg="http://demo.lanrenzhijia.com/2014/jd0912/images/b3.jpg" src="http://demo.lanrenzhijia.com/2014/jd0912/images/s3.jpg" onmousemove="preview(this);"></li>
-						</ul>
-						<div class="magnifying-glass-none">
-							
+					<div class="preview">
+						<div id="vertical" class="bigImg">
+							<img src="http://demo.lanrenzhijia.com/2014/jd0912/images/s1.jpg" width="398" height="398" alt="" id="midimg" />
+							<div style="display:none;" id="winSelector"></div>
 						</div>
+						<div class="smallImg">
+							<div id="imageMenu">
+								<ul>
+									<li><img bimg="http://demo.lanrenzhijia.com/2014/jd0912/images/b1.jpg" src="http://demo.lanrenzhijia.com/2014/jd0912/images/s1.jpg" onmousemove="preview(this);"></li>
+									<li><img bimg="http://demo.lanrenzhijia.com/2014/jd0912/images/b2.jpg" src="http://demo.lanrenzhijia.com/2014/jd0912/images/s2.jpg" onmousemove="preview(this);"></li>
+									<li><img bimg="http://demo.lanrenzhijia.com/2014/jd0912/images/b3.jpg" src="http://demo.lanrenzhijia.com/2014/jd0912/images/s3.jpg" onmousemove="preview(this);"></li>
+									<li><img bimg="http://demo.lanrenzhijia.com/2014/jd0912/images/b1.jpg" src="http://demo.lanrenzhijia.com/2014/jd0912/images/s1.jpg" onmousemove="preview(this);"></li>
+									<li><img bimg="http://demo.lanrenzhijia.com/2014/jd0912/images/b3.jpg" src="http://demo.lanrenzhijia.com/2014/jd0912/images/s3.jpg" onmousemove="preview(this);"></li>
+								</ul>
+							</div>
+						</div>	
+						<div id="bigView" style="display:block;"><img width="800" height="800" alt="" src="" /></div>
 					</div>
+					
+					
 					<div class="content-inner-cont-div2">
 						<h2>苹果6 Apple/苹果 iPhone 6 移动公开版4G手机</h2>
 						<div><span>促销价:</span><p>9854积分</p></div>
-						<p><b>选择类型:</b>
+						<p id="operator"><b>选择类型:</b>
 							<span class="xianliang">移动限量版</span>
 							<span>电信</span>
 							<span>联通</span>
 						</p>
-						<p><b>属&nbsp;&nbsp;性:</b>
+						<p id="operator"><b>属&nbsp;&nbsp;性:</b>
 							<span>金色</span>
 							<span>灰色</span>
 							<span>银色</span>
 						</p>
-						<p><b>购买数量:</b>
-							<input class="form-inp1" type="text" value="1"/>
-							<input class="form-inp2" type="button" value="" title="加"/>
-							<input class="form-inp3" type="button" value="" title="减"/>
-							<span>库存18520件</span>
-						</p>
+						<dl class="criticismDl clearfix mt15 f18 font_fam color666">
+		                    <dt class="fl mt5 f20">购买数量:</dt>
+		                    <dd class="fl ml10">
+		                        <form class="cartNumber fl pr mr20">
+		                            <input class="bor_none pa curaor_pointer" type="button" id="but_decr1" value="" onClick="return boutton(1,1);" title="加">
+		                            <input class="font_fam f16 tc bor_none color888 pa" type="text" value="1" id="digital1" maxlength="3" onChange="xiaoJiFen(1)" onkeyup="value=value.replace(/[^\d]/g,'')" onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))">
+		                            <input class="bor_none pa curaor_pointer" type="button" id="but_incr1" value="" onClick="return boutton(0,1);" title="减">
+		                        </form>
+                       			<span class="stocKc fl">库存18520件</span>
+                  		   </dd>
+                		</dl>
 						<p>
 							<a class="gou" href="#"></a>
 							<a class="dui" href="#"></a>
